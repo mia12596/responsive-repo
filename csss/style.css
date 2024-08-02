@@ -60,12 +60,13 @@ li a {
 
 .fitness-logo {
     color: orangered;
+    font-size: 30px;
 }
 
 .home {
     color: #ffffff;
     background-color: orangered;
-    border-radius: 30px;
+    border-radius: 40px;
     padding: 5px;
 }
 
@@ -78,12 +79,17 @@ li a {
     /* border: 2px solid green; */
 }
 
+.getbody {
+    width: 50%;
+}
+
 .btn-join {
     background-color: orangered;
     color: #ffffff;
     padding: 15px;
     border-radius: 20px;
     margin-top: 25px;
+    font-size: 20px;
 }
 
 .btn-app {
@@ -92,6 +98,7 @@ li a {
     padding: 15px;
     border-radius: 25px;
     margin-top: 25px;
+    font-size: 20px;
 }
 
 .body-title {
@@ -703,7 +710,9 @@ footer h5 {
 
 }
 
-@media screen and (min-width:577px) and (max-width:1500px) {
+@media screen and (min-width:577px) and (max-width:992px) {}
+
+@media screen and (min-width:993px) and (max-width:1700px) {
     .menu {
         display: none;
     }
