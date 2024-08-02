@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: black;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* nav section style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #222222;
+    padding: 5px;
+    border-radius: 25px;
+
+
+}
+
+.italic {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    ;
+}
+
+.home:hover {
+    background-color: aquamarine;
+    transition: 2s;
+
+}
+
+ul li {
+    list-style-type: none;
+
+
+}
+
+li a {
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+
+
+}
+
+.fitness-logo {
+    color: orangered;
+}
+
+.home {
+    color: #ffffff;
+    background-color: orangered;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+/* get body styles */
+.getbody-section {
+    display: flex;
+
+
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+.btn-join {
+    background-color: orangered;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.btn-app {
+
+
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.body-title {
+    color: #ffffff;
+    font-size: 48px;
+    margin-top: 25px;
+}
+
+.body-description {
+    color: darkgray;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.getbody {
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+/* change your habits styles */
+.writing-part {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+.habit-description {
+    font-size: 20px;
+    margin-top: 20px;
+    color: darkgray;
+}
+
+.trainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+h3,
+p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.trainer img {
+    border-radius: 50%;
+}
+
+/* run and extra design */
+.runner {
+    display: flex;
+
+    margin-top: 40px;
+    background-color: #222222;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.run {
+
+    width: 100%;
+
+
+}
+
+.run1 {
+    width: 100%;
+}
+
+.run1 img {
+
+
+    height: 400px;
+    width: 700px;
+    border-radius: 20px;
+
+}
+
+.run-title {
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 35px;
+
+}
+
+.run-description {
+    color: darkgray;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.btn-joinn {
+    background-color: orangered;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.box-1 {
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+}
+
+.trainer-skill {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #222222;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+.opu img {
+    width: 450px;
+    border-radius: 10px;
+    gap: 10px;
+
+}
+
+.meet-title {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.meet-description {
+    margin-top: 20px;
+    color: darkgray;
+}
+
+.bottom {
+    margin-top: -60px;
+    margin-left: 35px;
+    color: white;
+}
+
+
+.part p {
+    color: darkgray;
+}
+
+/* bmi calculator */
+
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+.caption {
+    margin-bottom: 20px;
+    color: white;
+}
+
+h2,
+h5 {
+    color: #ffffff;
+    align-items: center;
+}
+
+td,
+th {
+    border: 2px solid blanchedalmond;
+    padding: 15px;
+    color: darkgray;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.trainer-img {
+    height: 100%;
+}
+
+
+.weight-6 {
+
+    background-color: #222222;
+    gap: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.bmi-cal h1 {
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bmi-cal p {
+    color: darkgray;
+    margin-top: 10px;
+}
+
+.calculate h5 {
+    color: darkgray;
+    margin-top: 10px;
+}
+
+
+.weight {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+
+}
+
+.weight-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+}
+
+.text {
+    background-color: #222222;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid darkgray;
+    gap: 5px;
+    color: darkgray;
+}
+
+hr {
+    color: aqua;
+}
+
+.four {
+    grid-column: span 2;
+    background-color: #222222;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid darkgray;
+    color: darkgray;
+    border-radius: 10px;
+}
+
+.btn-cal {
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* challenge part */
+.trainer2
+
+/* .trainer3,
+.comments,
+.suggestion { */
+    {
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    /* border: 3px solid #222222; */
+    background-color: aqua;
+    margin-bottom: 20px;
+    color: darkgray;
+}
+
+.trainer3 {
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    /* border: 3px solid #222222; */
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    color: darkgray;
+}
+
+.comments {
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    /* border: 3px solid #222222; */
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    color: darkgray;
+}
+
+.suggestion {
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    /* border: 3px solid #222222; */
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    color: darkgray;
+}
+
+.comment {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.trainername,
+.rating,
+.comments,
+.improvement {
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.faq-img {
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+.img,
+.details {
+    width: 100%;
+
+}
+
+details {
+    border: 2px solid darkgray;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px aqua;
+
+}
+
+details:hover {
+    transition: 3s;
+}
+
+.queue {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+summary {
+    color: wheat;
+}
+
+.accordion {
+    color: darkgray;
+}
+
+.challenge {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+/* feedback form */
+.fe-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* 30% and 50% */
+
+.getbody img {
+    position: relative;
+}
+
+.right h4 {
+    color: white;
+    position: absolute;
+    top: 200px;
+    right: 380px;
+    background-color: #3f3a35;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.left h4 {
+    position: absolute;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #4a3f38;
+
+    left: 720px;
+    top: 450px;
+
+
+    /* align-items: center; */
+}
+
+.left h1 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: orangered;
+    top: 485px;
+    left: 700px;
+
+
+
+}
+
+
+
+/* footer */
+footer {
+    background-color: #222222;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15px;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+.us h2,
+h4 {
+    margin-bottom: 10px;
+}
+
+.usa h4 {
+    color: darkgray;
+}
+
+.usa h1 {
+    font-size: 20px;
+}
+
+footer p {
+    margin-bottom: 40px;
+    padding: 20px;
+    color: darkgray;
+    font-size: 20px;
+}
+
+hr {
+    width: 80%;
+    color: wheat;
+}
+
+.usa {
+    width: 100%;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+}
+
+footer h5 {
+    margin-top: 10px;
+    font-size: 15px;
+    color: darkgray;
+}
+
+
+/* media query design */
+@media screen and (max-width:576px) {
+    .fitness-logo {
+        font-size: 48px;
+    }
+
+    nav ul li a,
+    .home {
+
+        display: none;
+        margin: none;
+    }
+
+    nav {
+        max-width: 100%;
+        margin-left: 20px;
+    }
+
+    .menu {
+        display: block;
+        color: #ffffff;
+
+
+
+
+    }
+
+    .getbody {
+        margin-top: 40px;
+    }
+
+    .getbody-section {
+        max-width: 576px;
+        margin-left: 20px;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    .getbody img {
+        position: relative;
+    }
+
+    .right h4 {
+        position: absolute;
+        top: 550px;
+        right: 100px;
+        padding: 20px;
+    }
+
+    .left h4 {
+        position: absolute;
+        left: 40px;
+        top: 790px;
+        padding: 20px;
+    }
+
+    .count {
+        font-size: 45px;
+    }
+
+    .count1 {
+        font-size: 30px;
+    }
+
+    .trainer {
+        max-width: 576px;
+        flex-direction: column;
+    }
+
+    .part img {
+
+
+        margin-left: 180px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .runner {
+        max-width: 576px;
+        flex-direction: column;
+    }
+
+    .weight {
+        max-width: 576px;
+        flex-direction: column;
+    }
+
+    .trainer-skill {
+        max-width: 576px;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .faq {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .challenge {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .section-3 {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    html,
+    body {
+        overflow: hidden;
+    }
+
+
+
+}
+
+@media screen and (min-width:577px) and (max-width:1500px) {
+    .menu {
+        display: none;
+    }
+}
