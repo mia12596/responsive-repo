@@ -329,8 +329,11 @@ th {
     color: darkgray;
 }
 
-hr {
-    color: aqua;
+
+.hr {
+    border-bottom: 1px solid darkgray;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .four {
