@@ -555,6 +555,7 @@ footer {
 .us h2,
 h4 {
     margin-bottom: 10px;
+
 }
 
 .usa h4 {
@@ -566,7 +567,7 @@ h4 {
 }
 
 footer p {
-    margin-bottom: 40px;
+
     padding: 20px;
     color: darkgray;
     font-size: 20px;
@@ -594,8 +595,15 @@ footer h5 {
 
 /* media query design */
 @media screen and (max-width:576px) {
+
+    body,
+    main {
+        /* overflow: hidden; */
+    }
+
     .fitness-logo {
         font-size: 48px;
+
     }
 
     nav ul li a,
@@ -605,34 +613,83 @@ footer h5 {
         margin: none;
     }
 
-    nav {
-        max-width: 100%;
-        margin-left: 20px;
-    }
+
 
     .menu {
         display: block;
         color: #ffffff;
-
-
-
-
     }
 
-    .getbody {
-        margin-top: 40px;
+    nav {
+        max-width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
     }
 
     .getbody-section {
-        max-width: 576px;
-        margin-left: 20px;
         flex-direction: column;
-        margin-left: 30px;
+        max-width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+
     }
+
+
 
     .getbody img {
         position: relative;
     }
+
+    .trainer {
+
+        flex-direction: column;
+        max-width: 30%;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-bottom: 5rem;
+    }
+
+    .weight {
+        flex-direction: column;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .weight-6 {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .caption {
+        margin-bottom: 20px;
+    }
+
+    .gap {
+        margin-bottom: 5rem;
+    }
+
+    .part h3,
+    p {
+        margin-top: 30px;
+
+    }
+
+    .runner {
+        flex-direction: column;
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 5.5rem;
+    }
+
+    .run {
+        margin-bottom: 5rem;
+    }
+
+    .run1 img {
+        width: 90%;
+    }
+
+
 
     .right h4 {
         position: absolute;
@@ -648,71 +705,17 @@ footer h5 {
         padding: 20px;
     }
 
-    .count {
-        font-size: 45px;
-    }
-
-    .count1 {
-        font-size: 30px;
-    }
-
-    .trainer {
-        max-width: 576px;
-        flex-direction: column;
-    }
-
-    .part img {
-
-
-        margin-left: 180px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-
-    }
-
-    .runner {
-        max-width: 576px;
-        flex-direction: column;
-    }
-
-    .weight {
-        max-width: 576px;
-        flex-direction: column;
-    }
-
     .trainer-skill {
-        max-width: 576px;
         grid-template-columns: repeat(1, 1fr);
-
     }
 
-    .faq {
-        flex-direction: column;
-        overflow-x: hidden;
-    }
 
-    .challenge {
-        flex-direction: column;
-        overflow-x: hidden;
-    }
-
-    .section-3 {
-        flex-direction: column;
-        overflow-x: hidden;
-    }
-
-    html,
-    body {
-        overflow: hidden;
-    }
 
 
 
 }
 
-@media screen and (min-width:577px) and (max-width:992px) {}
-
-@media screen and (min-width:993px) and (max-width:1700px) {
+@media screen and (min-width:993px) and (max-width:1500px) {
     .menu {
         display: none;
     }
