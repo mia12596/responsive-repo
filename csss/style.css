@@ -674,6 +674,10 @@ footer h5 {
 
     }
 
+    .part img {
+        margin-right: 30px;
+    }
+
     .runner {
         flex-direction: column;
         max-width: 80%;
