@@ -533,6 +533,7 @@ summary {
 
 
 
+
 /* footer */
 footer {
     background-color: #222222;
@@ -596,9 +597,8 @@ footer h5 {
 /* media query design */
 @media screen and (max-width:576px) {
 
-    body,
-    main {
-        /* overflow: hidden; */
+    body {
+        overflow-y: hidden;
     }
 
     .fitness-logo {
@@ -741,6 +741,10 @@ footer h5 {
 
     .usa {
         margin-bottom: 3rem;
+    }
+
+    body {
+        border: 2px solid green;
     }
 
 
