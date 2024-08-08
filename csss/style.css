@@ -597,9 +597,7 @@ footer h5 {
 /* media query design */
 @media screen and (max-width:576px) {
 
-    body {
-        overflow-y: hidden;
-    }
+
 
     .fitness-logo {
         font-size: 48px;
