@@ -136,6 +136,8 @@ li a {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 h3,
@@ -626,6 +628,11 @@ footer h5 {
 
     .trainer {
         flex-direction: column;
+
+    }
+
+    .part {
+        margin-top: 15px;
     }
 
     .runner {
@@ -701,6 +708,8 @@ footer h5 {
         left: 30px;
         top: 900px;
     }
+
+
 
     body {
         padding: 20px;
