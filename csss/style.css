@@ -216,6 +216,7 @@ p {
     padding: 20px;
     margin-top: 20px;
     border-radius: 20px;
+    align-items: center;
 
 }
 
@@ -224,7 +225,7 @@ p {
 
 
 .opu img {
-    width: 300px;
+    width: 100%;
     border-radius: 10px;
     gap: 10px;
 
@@ -286,6 +287,7 @@ th {
 
 .trainer-img {
     height: 100%;
+
 }
 
 
@@ -320,6 +322,8 @@ th {
 .weight {
     display: flex;
     justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     padding-top: 40px;
 
 }
@@ -678,14 +682,17 @@ footer h5 {
 
     .trainer-img {
         margin-top: 10px;
+
     }
+
+
 
     .faq {
         flex-direction: column;
     }
 
     .details {
-        width: 70%;
+        width: 100%;
     }
 
 
@@ -730,6 +737,11 @@ footer h5 {
 
     .faq-img {
         height: 400px;
+        width: 100%;
+    }
+
+    .run1 img {
+        width: 100%;
     }
 
 
