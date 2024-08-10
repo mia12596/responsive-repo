@@ -652,16 +652,18 @@ footer h5 {
 
 
     .text {
-        width: 50%;
+        width: 80%;
+        gap: 3px;
     }
 
     .four {
-        width: 70%;
+        width: 100%;
 
     }
 
-    .text2 {
-        width: 35%;
+    .text2,
+    .text3 {
+        width: 100%;
     }
 
     .calculate {
