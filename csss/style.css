@@ -80,8 +80,9 @@ li a {
 }
 
 .getbody {
-    width: 50%;
+    width: 100%;
 }
+
 
 .btn-join {
     background-color: orangered;
@@ -617,6 +618,78 @@ footer h5 {
         display: block;
         color: #ffffff;
     }
+
+    .getbody-section {
+        flex-direction: column;
+
+    }
+
+    .trainer {
+        flex-direction: column;
+    }
+
+    .runner {
+        flex-direction: column;
+    }
+
+    .run1 img {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .weight {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    .weight-1 {
+        width: 70%;
+    }
+
+    .trainer-skill {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .trainer-img {
+        margin-top: 10px;
+    }
+
+    .faq {
+        flex-direction: column;
+    }
+
+    .details {
+        width: 70%;
+    }
+
+
+
+    .section-3 {
+        flex-direction: column;
+    }
+
+    .challenge {
+        width: 70%;
+    }
+
+    .rating,
+    .trainername,
+    .comment,
+    .improvement {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .fe-title {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    body {
+        border: 2px solid green;
+    }
+
 
 
 
