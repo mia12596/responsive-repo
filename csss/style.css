@@ -686,8 +686,24 @@ footer h5 {
 
     }
 
+    .getbody img {
+        position: relative;
+    }
+
+    .right h4 {
+        position: absolute;
+        top: 600px;
+        right: 150px;
+    }
+
+    .left h4 {
+        position: absolute;
+        left: 30px;
+        top: 900px;
+    }
+
     body {
-        border: 2px solid green;
+        padding: 20px;
     }
 
 
