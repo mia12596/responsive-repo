@@ -140,6 +140,8 @@ li a {
     align-items: center;
 }
 
+
+
 h3,
 p {
     color: #ffffff;
@@ -742,6 +744,10 @@ footer h5 {
 
     .run1 img {
         width: 100%;
+    }
+
+    .calculate {
+        margin-top: 10px;
     }
 
 
