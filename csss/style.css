@@ -649,8 +649,23 @@ footer h5 {
         padding-left: 10px;
     }
 
-    .weight-1 {
-        width: 40%;
+
+
+    .text {
+        width: 50%;
+    }
+
+    .four {
+        width: 70%;
+
+    }
+
+    .text2 {
+        width: 35%;
+    }
+
+    .calculate {
+        width: 70%;
     }
 
     .trainer-skill {
