@@ -508,6 +508,8 @@ summary {
 
 .getbody img {
     position: relative;
+    width: 800px;
+    margin-top: 5px;
 }
 
 .right h4 {
@@ -735,6 +737,8 @@ footer h5 {
 
     .getbody img {
         position: relative;
+        width: 100%;
+        margin-top: 10px;
     }
 
     .right h4 {
