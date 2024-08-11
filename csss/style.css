@@ -538,6 +538,8 @@ summary {
     /* align-items: center; */
 }
 
+
+
 .left h1 {
     position: absolute;
     height: 20px;
@@ -743,14 +745,15 @@ footer h5 {
 
     .right h4 {
         position: absolute;
-        top: 600px;
+        top: 550px;
         right: 150px;
     }
 
     .left h4 {
         position: absolute;
-        left: 30px;
-        top: 900px;
+        left: 70px;
+        top: 700px;
+
     }
 
     .faq-img {
