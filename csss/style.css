@@ -516,9 +516,9 @@ summary {
     color: white;
     position: absolute;
     top: 200px;
-    right: 380px;
+    right: 330px;
     background-color: #3f3a35;
-    padding: 10px;
+    padding: 8px;
     border-radius: 10px;
     align-items: center;
     text-align: center;
@@ -531,8 +531,8 @@ summary {
     border-radius: 10px;
     background-color: #4a3f38;
 
-    left: 720px;
-    top: 450px;
+    left: 800px;
+    top: 400px;
 
 
     /* align-items: center; */
