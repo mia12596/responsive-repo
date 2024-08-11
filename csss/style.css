@@ -234,6 +234,7 @@ p {
     gap: 10px;
 
 
+
 }
 
 
@@ -500,7 +501,7 @@ summary {
 /* feedback form */
 .fe-title {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 /* 30% and 50% */
@@ -694,6 +695,7 @@ footer h5 {
 
     .trainer-img {
         margin-top: 10px;
+
 
     }
 
